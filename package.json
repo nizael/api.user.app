@@ -1,0 +1,22 @@
+{
+  "name": "api.user.app",
+  "version": "1.0.0",
+  "description": "api for user registration",
+  "main": "server.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nizael/api.user.app.git"
+  },
+  "keywords": [
+    "user-app"
+  ],
+  "author": "nizael.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nizael/api.user.app/issues"
+  },
+  "homepage": "https://github.com/nizael/api.user.app#readme"
+}
