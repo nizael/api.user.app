@@ -25,8 +25,7 @@ export const auth = (req: Request, res: Response, next: NextFunction) => {
         if (!decoded) throw new Error('Token inválido')
         if (typeof decoded === 'string') throw new Error('Token inválido')
         req.userId = decoded.id
-        req.userRole = decoded.role
-        req.userNickName = decoded.nickName
+        req.userNickname = decoded.nickname
         return next()
     });
 };
